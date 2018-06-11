@@ -1,0 +1,19 @@
+current directory: /Users/kkutyn/se-ruby-fullstack-exercise/vendor/bundle/ruby/2.3.0/gems/murmurhash3-0.1.6/ext/murmurhash3
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180604-12440-18280i3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kkutyn/se-ruby-fullstack-exercise/vendor/bundle/ruby/2.3.0/gems/murmurhash3-0.1.6/ext/murmurhash3
+make "DESTDIR=" clean
+
+current directory: /Users/kkutyn/se-ruby-fullstack-exercise/vendor/bundle/ruby/2.3.0/gems/murmurhash3-0.1.6/ext/murmurhash3
+make "DESTDIR="
+compiling murmur3.c
+linking shared-object native.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/kkutyn/se-ruby-fullstack-exercise/vendor/bundle/ruby/2.3.0/gems/murmurhash3-0.1.6/ext/murmurhash3
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 native.bundle ./.gem.20180604-12440-13gja2s
